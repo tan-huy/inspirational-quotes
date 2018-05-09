@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/pexels-photo-834747.jpeg);
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Alconica', sans-serif, Helvetica, Arial, sans-serif;
+    margin: .5rem
+}
+
+hr {
+    width: 15rem;
+    border-bottom: 1px solid black;
+}
+
+.row {
+    text-align: center;
+    width: 100%;
+}
+
+.quote-box {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Balthazar', serif, Helvetica, Arial, sans-serif;
+    background: #d1d1cce0
+}
+
+.btn {
+    width:  85px;
+    padding: 5px;
+    background: rgb(0,80,0);
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: .7rem;
+    box-shadow: 0px 8px 5px -10px rgba(0,0,0,0.5);
+    transition: all ease-in-out 300ms;
+}
+
+.btn:hover {
+    box-shadow: -8px 27px 20px -10px rgba(0,0,0,0.3);
+    transform: translate(1px, -3px);
+    background: rgb(0,150,0);
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;   
+}
+
+li {
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    .quote-box {
+        width: 100%;
+    }
+}
